@@ -1,5 +1,7 @@
 # Todo
 
+![[demo-todo.mp4]]
+
 A poorly programmed todo list manager. 
 
 The todos are stored in the variable `TODO_FILE` inside the script, the default
