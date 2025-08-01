@@ -32,7 +32,7 @@ the top. The *category* column takes in a lowercase alphabet and is supposed to
 be the shorthand of the category that is associated with the todo. (r for
 research)
 
-> todo.sh [option] <argument>
+> todo.sh [option] \<argument\>
 
 **Options:**
 
