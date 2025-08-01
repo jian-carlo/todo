@@ -1,6 +1,6 @@
 # Todo
 
-![](demo-todo.gif)
+![](demo-todo.mp4)
 
 A poorly programmed todo list manager. 
 
