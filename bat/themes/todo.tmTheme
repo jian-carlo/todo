@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>todo</string>
+    <key>settings</key>
+    <array>
+        <!-- Default text -->
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+                <key>background</key>
+                <string>#141414</string>
+            </dict>
+        </dict>
+
+        <!-- Done items -->
+        <dict>
+            <key>name</key>
+            <string>Done</string>
+            <key>scope</key>
+            <string>todo.done</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#606079</string>
+            </dict>
+        </dict>
+
+        <!-- Headers -->
+        <dict>
+            <key>name</key>
+            <string>Done</string>
+            <key>scope</key>
+            <string>todo.header.all</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D78787</string>
+            </dict>
+        </dict>
+        <!-- <dict> -->
+        <!--     <key>name</key> -->
+        <!--     <string>STA</string> -->
+        <!--     <key>scope</key> -->
+        <!--     <string>todo.header.status</string> -->
+        <!--     <key>settings</key> -->
+        <!--     <dict> -->
+        <!--         <key>foreground</key> -->
+        <!--         <string>#D78787</string> -->
+        <!--     </dict> -->
+        <!-- </dict> -->
+        <!---->
+        <!-- <dict> -->
+        <!--     <key>name</key> -->
+        <!--     <string>DUE</string> -->
+        <!--     <key>scope</key> -->
+        <!--     <string>todo.header.duedate</string> -->
+        <!--     <key>settings</key> -->
+        <!--     <dict> -->
+        <!--         <key>foreground</key> -->
+        <!--         <string>#D78787</string> -->
+        <!--     </dict> -->
+        <!-- </dict> -->
+        <!---->
+        <!-- <dict> -->
+        <!--     <key>name</key> -->
+        <!--     <string>PRI</string> -->
+        <!--     <key>scope</key> -->
+        <!--     <string>todo.header.priority</string> -->
+        <!--     <key>settings</key> -->
+        <!--     <dict> -->
+        <!--         <key>foreground</key> -->
+        <!--         <string>#D78787</string> -->
+        <!--     </dict> -->
+        <!-- </dict> -->
+        <!---->
+        <!-- <dict> -->
+        <!--     <key>name</key> -->
+        <!--     <string>CAT</string> -->
+        <!--     <key>scope</key> -->
+        <!--     <string>todo.header.category</string> -->
+        <!--     <key>settings</key> -->
+        <!--     <dict> -->
+        <!--         <key>foreground</key> -->
+        <!--         <string>#D78787</string> -->
+        <!--     </dict> -->
+        <!-- </dict> -->
+        <!---->
+        <!-- <dict> -->
+        <!--     <key>name</key> -->
+        <!--     <string>DO</string> -->
+        <!--     <key>scope</key> -->
+        <!--     <string>todo.header.description</string> -->
+        <!--     <key>settings</key> -->
+        <!--     <dict> -->
+        <!--         <key>foreground</key> -->
+        <!--         <string>#D78787</string> -->
+        <!--     </dict> -->
+        <!-- </dict> -->
+
+        <!-- due date field -->
+        <dict>
+            <key>name</key>
+            <string>DO</string>
+            <key>scope</key>
+            <string>todo.duedate</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#AFAFD7</string>
+            </dict>
+        </dict>
+
+        <!-- priority A -->
+        <dict>
+            <key>name</key>
+            <string>A</string>
+            <key>scope</key>
+            <string>todo.priorityA</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D7AF87</string>
+            </dict>
+        </dict>
+
+        <!-- priority B -->
+        <dict>
+            <key>name</key>
+            <string>B</string>
+            <key>scope</key>
+            <string>todo.priorityB</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D7AF87</string>
+            </dict>
+        </dict>
+
+        <!-- priority C -->
+        <dict>
+            <key>name</key>
+            <string>C</string>
+            <key>scope</key>
+            <string>todo.priorityC</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D7AF87</string>
+            </dict>
+        </dict>
+
+        <!-- category -->
+        <dict>
+            <key>name</key>
+            <string>Category</string>
+            <key>scope</key>
+            <string>todo.category</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#85A2B9</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

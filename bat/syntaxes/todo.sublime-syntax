@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+name: todo
+file_extensions: [.todo]
+scope: source.todo
+contexts:
+  main:
+    - match: '^ID  STA  DUE    PRI  CAT  DO$'
+      scope: todo.header.all
+    - match: 'STA'
+      scope: todo.header.status
+    - match: 'DUE'
+      scope: todo.header.duedate
+    - match: 'PRI'
+      scope: todo.header.priority
+    - match: 'CAT'
+      scope: todo.header.category
+    - match: 'DO'
+      scope: todo.header.description
+    - match: '(?<=^.{4})o'
+      scope: todo.plain
+    - match: '^.{4}x.*$'
+      scope: todo.done
+    - match: '(?<=^.{9})\d\d-\d\d'
+      scope: todo.duedate
+    - match: '(?<=^.{16})A'
+      scope: todo.priorityA
+    - match: '(?<=^.{16})B'
+      scope: todo.priorityB
+    - match: '(?<=^.{16})C'
+      scope: todo.priorityC
+    - match: '(?<=^.{21})[a-z]'
+      scope: todo.category
+    # - match: '^x.*$'
+    #   scope: todo.done

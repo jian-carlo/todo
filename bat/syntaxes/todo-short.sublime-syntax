@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+name: todo-short
+file_extensions: [.todo]
+scope: source.todo
+contexts:
+  main:
+    - match: 'ID  STA  DUE    DO'
+      scope: todo.header.all
+    - match: 'STA'
+      scope: todo.header.status
+    - match: 'DUE'
+      scope: todo.header.category
+    - match: 'DO'
+      scope: todo.header.description
+    - match: '(?<=^.{4})o'
+      scope: todo.plain
+    - match: '^.{4}x.*$'
+      scope: todo.done
+    - match: '(?<=^.{9})\d\d-\d\d'
+      scope: todo.duedate
+    # - match: '^x.*$'
+    #   scope: todo.done
