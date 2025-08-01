@@ -23,7 +23,7 @@ project. This project is inspired by other CLI todo managers like
 
 ## Usage
 
-The contents of the `TODO_FILE` must have the headings as found in the
+The content of the `TODO_FILE` must have the headings as found in the
 `todo.txt` file in this repo. The *status* column is either `o` or `x` which
 signifies incomplete and complete respectively. The due column is of the format
 "MM-YY". The *priority* column takes in the values A, B, C; (more if you want)
