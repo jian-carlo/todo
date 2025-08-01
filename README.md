@@ -6,7 +6,7 @@ A poorly programmed todo list manager.
 
 The todos are stored in the variable `TODO_FILE` inside the script, the default
 value for which is `~/todo.txt`. You can add syntax highlighting (with `bat`)
-and text editor integration if you like. [Pickdate] is used as the date picker
+and text editor integration if you like. [Pickdate][1] is used as the date picker
 for due dates, although you can opt not to use it and the script will still
 run.
 
