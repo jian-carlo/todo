@@ -12,7 +12,7 @@ run.
 
 ## Installation
 
-There is no installation just copy the contents of the `todo.sh` script into
+There is no installation just copy the content of the `todo.sh` script into
 your own system. 
 
 ## Why I did this
