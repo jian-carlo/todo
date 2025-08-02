@@ -24,7 +24,7 @@ project. This project is inspired by other CLI todo managers like
 ## Usage
 
 The content of the `TODO_FILE` must have the headings as found in the
-`todo.txt` file in this repo. The *status* column is either `o` or `x` which
+`todo.txt` file in this repo. The *status* column is either 'o' or 'x' which
 signifies incomplete and complete respectively. The due column is of the format
 "MM-YY". The *priority* column takes in the values A, B, C; (more if you want)
 this is for manipulation of the sort i.e., the todo with the A priority is at
@@ -32,7 +32,7 @@ the top. The *category* column takes in a lowercase alphabet and is supposed to
 be the shorthand of the category that is associated with the todo. (r for
 research)
 
-> todo.sh [option] \<argument\>
+> `todo.sh [option] <argument>`
 
 **Options:**
 
