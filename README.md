@@ -50,7 +50,7 @@ Lists the added todos, the script automatically sorts the .txt file
 alphabetically. only displays the todo id, status, due-date, and message. A
 category can be specified to only list all todos in that category
 
-> `-la, --list-all <category|none>`
+> `-la, --list-all <category|date|none>`
 
 Similar to -l, but lists the todo priority and category
 
