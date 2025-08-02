@@ -2,7 +2,7 @@
 
 ![](demo-todo.gif)
 
-A poorly programmed todo list manager. 
+Another CLI todo list manager. 
 
 The todos are stored in the variable `TODO_FILE` inside the script, the default
 value for which is `~/todo.txt`. You can add syntax highlighting (with `bat`)
