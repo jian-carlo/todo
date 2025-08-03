@@ -6,10 +6,6 @@ TODO_FILE="$HOME/todo.txt"
 MODE=""
 ARG=$1
 
-batify() {
-    bat --plain --theme todo --language todo
-}
-
 case $ARG in
     "-a" | "--add" ) MODE="add" ;;
     "-aa" | "--add-all" ) MODE="add-all" ;;
@@ -30,7 +26,7 @@ esac
 if [[ "$MODE" == "add" ]]
 then
     echo
-    # this just reads the ENTRY and the DUE
+    # this reads the ENTRY and the DUE
     # and appends it to the todofile
 
     read -p "    todo: " ENTRY
