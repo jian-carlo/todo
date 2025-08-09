@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+TODO_FILE="$HOME/projects/todo/todo.txt"
+FILE_CONTENT=$(cat "$TODO_FILE")
+TEXT_EDITOR="$EDITOR"
+
+sort "$TODO_FILE" > "$TODO_FILE.tmp" && mv "$TODO_FILE.tmp" "$TODO_FILE"
+
+case $1 in
+    [0-9]* )
+        MODE="complete" ;;
+    "" )
+        MODE="display" ;;
+    "e" | "edit")
+        MODE="edit" ;;
+    * )
+        echo "error"
+        exit 1 ;;
+esac
+
+if [[ "$MODE" == "display" ]]
+then 
+    echo "$FILE_CONTENT"
+elif [[ "$MODE" == "complete" ]]
+then
+    echo ""
+elif [[ "$MODE" == "edit" ]]
+then
+    "$TEXT_EDITOR" "$TODO_FILE"
+fi
