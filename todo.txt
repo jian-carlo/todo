@@ -1,6 +1,0 @@
-STA  DUE    PRI  CAT  DO
-o    02-20  B    s    do that
-o    08-09  _    _    hello
-o    08-22  C    s    do something
-x    02-20  A    c    do this
-x    08-09  _    _    hello hello hello hello
